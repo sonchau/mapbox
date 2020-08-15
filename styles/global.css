@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html 
+{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    min-height: 100vh;
+    line-height: 1.4;
+}
