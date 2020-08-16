@@ -1,6 +1,4 @@
 import React, {useState} from 'react';
-import {Component} from 'react';
-import {render} from 'react-dom';
 import MapGL, {
   Popup,
   NavigationControl,

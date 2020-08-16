@@ -27,6 +27,9 @@ const PhotoList:React.FC = () => {
           <Link href="/layers">
             <a>Map Layers</a>
           </Link>
+          <Link href="/zoom-to-bounds">
+            <a>Zoom to bounds</a>
+          </Link>
     </PhotoListStyled>)
 }
 
