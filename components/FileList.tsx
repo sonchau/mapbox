@@ -21,6 +21,9 @@ const PhotoList:React.FC = () => {
           <Link href="/basic">
             <a>Basic Map</a>
           </Link>
+          <Link href="/control">
+            <a>Control Map</a>
+          </Link>
     </PhotoListStyled>)
 }
 
