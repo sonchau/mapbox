@@ -1,4 +1,5 @@
 
+// @ts-nocheck
 import React, {useState} from 'react';
 import MapGL from 'react-map-gl';
 import ControlPanel from '../components/layers/control-panel';

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import * as React from 'react';
 import {PureComponent} from 'react';
 import {fromJS} from 'immutable';
@@ -26,7 +27,7 @@ const colorClass = {
 };
 
 export default class StyleControls extends PureComponent {
-  constructor(props) {
+  constructor(props:any) {
     super(props);
 
     this._defaultLayers = defaultMapStyle.get('layers');

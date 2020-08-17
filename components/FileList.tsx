@@ -1,8 +1,8 @@
 import * as React from 'react'
 //import { Photo } from '../interfaces'
 import styled from "styled-components"
-import {useRecoilValue} from 'recoil'
-import {photoListState} from '../recoil/state'
+// import {useRecoilValue} from 'recoil'
+// import {photoListState} from '../recoil/state'
 //import PhotoListItem from './PhotoListItem'
 import Link from 'next/link'
 
@@ -41,8 +41,6 @@ const ListItemStyled = styled.li`
 `;
 
 const PhotoList:React.FC = () => {
-  const photoList = useRecoilValue(photoListState);
-  //console.log('photoList state', photoList)
   return (
     <>
       <Heading>Please select the following files to view map</Heading>

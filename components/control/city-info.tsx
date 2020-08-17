@@ -1,7 +1,7 @@
 import React from 'react';
-import {City} from '../../interfaces'
+//import {City} from '../../interfaces'
 
-const CityInfo = ({info}: City) => {
+const CityInfo = ({info}: any) => {
     const displayName = `${info.city}, ${info.state}`;
 
     return (

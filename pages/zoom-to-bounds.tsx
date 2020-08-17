@@ -1,4 +1,5 @@
 
+// @ts-nocheck
 import React, {useState} from 'react';
 import MapGL, {LinearInterpolator, WebMercatorViewport} from 'react-map-gl';
 import ControlPanel from '../components/zoom-to-bounds/control-panel';

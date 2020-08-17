@@ -1,3 +1,4 @@
+// @ts-nocheck
 import MAP_STYLE from '../../mapstyles/map-style-basic-v8.json';
 
 // Make a copy of the map style
